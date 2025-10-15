@@ -9,5 +9,3 @@ function evenSum(arr){
 }
 console.log(evenSum([1,2,3,4,5]));
 console.log(evenSum([7,9,12,14]));
-console.log(evenSum([7,9,12,14]));
-// ahmedirfAD
