@@ -1,10 +1,12 @@
 function countDigits(num){
+    let str=num.toString();
     let i=1;
-    let result=0;
-    while(i<=num.length){
-        result+=i;
+    let count=0;
+    while(i<=str.length){
+        count++;
         i++;
     }
-    return i;
+    return count;
 }
 console.log(countDigits(12345));
+console.log(countDigits(987654321));
